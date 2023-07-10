@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    display: flex;
+    flex: auto;
+  }
+  
+  /* Additional styling for the flex container */
+  .container {
+    flex: 1;
+  }
+  
+  /* Styling for the flex items within the main container */
+  article {
+    flex: 2;
+    overflow-y: auto;
+  }
+  
+  aside {
+    flex: 1;
+    overflow-y: auto;
+  }
+  .logo-block {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  
+    
