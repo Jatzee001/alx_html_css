@@ -182,6 +182,7 @@
 
   .row {
     display: flex;
+    /* Remove the row::after declaration */
   }
 
   [class*='col-'] {
