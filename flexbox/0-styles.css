@@ -195,14 +195,8 @@
     list-style: none;
   }
   
-  .row::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-  
   [class*='col-'] {
-    float: left;
+    /* Remove float: left */
     padding: 0.5rem;
   }
   
