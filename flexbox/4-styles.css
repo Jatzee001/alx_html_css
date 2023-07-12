@@ -194,7 +194,6 @@
   
   [class*='col-'] {
     float: left;
-    padding: 0;
     margin: 1rem;
   }
   
