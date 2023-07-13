@@ -216,6 +216,7 @@
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
+  margin: 0 0 0 2rem;
 }
 
 .nav .nav-item + .nav-item {
