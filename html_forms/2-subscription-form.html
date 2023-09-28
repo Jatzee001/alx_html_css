@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Form</title>
+</head>
+<body>
+    <h1>Subscribe to our Service</h1>
+    <form action="#" method="post" id="subscription-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+
+        <label>Subscription Preference:</label>
+        <div>
+            <input type="radio" id="monthly" name="subscription" value="monthly" required>
+            <label for="monthly">Monthly</label>
+        </div>
+        <div>
+            <input type="radio" id="yearly" name="subscription" value="yearly" required>
+            <label for="yearly">Yearly</label>
+        </div>
+
+        <button type="submit">Subscribe</button>
+    </form>
+</body>
+</html>
